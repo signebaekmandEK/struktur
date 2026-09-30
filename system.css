@@ -253,6 +253,46 @@ button, input, textarea, select {
 
 /* ========== 4: Layout/Grid ========== */
 
+/* Position */
+.static { position: static; }
+.fixed { position: fixed; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.sticky { position: sticky; }
+
+.top-0 { top: 0; }
+.top-1 { top: var(--space-xs); }
+.top-2 { top: var(--space-sm); }
+.top-3 { top: var(--space-md); }
+.top-4 { top: var(--space-lg); }
+.top-5 { top: var(--space-xl); }
+.top-6 { top: var(--space-xxl); }
+.top-7 { top: var(--space-xxxl); }
+.right-0 { right: 0; }
+.right-1 { right: var(--space-xs); }
+.right-2 { right: var(--space-sm); }
+.right-3 { right: var(--space-md); }
+.right-4 { right: var(--space-lg); }
+.right-5 { right: var(--space-xl); }
+.right-6 { right: var(--space-xxl); }
+.right-7 { right: var(--space-xxxl); }
+.bottom-0 { bottom: 0; }
+.bottom-1 { bottom: var(--space-xs); }
+.bottom-2 { bottom: var(--space-sm); }
+.bottom-3 { bottom: var(--space-md); }
+.bottom-4 { bottom: var(--space-lg); }
+.bottom-5 { bottom: var(--space-xl); }
+.bottom-6 { bottom: var(--space-xxl); }
+.bottom-7 { bottom: var(--space-xxxl); }
+.left-0 { left: 0; }
+.left-1 { left: var(--space-xs); }
+.left-2 { left: var(--space-sm); }
+.left-3 { left: var(--space-md); }
+.left-4 { left: var(--space-lg); }
+.left-5 { left: var(--space-xl); }
+.left-6 { left: var(--space-xxl); }
+.left-7 { left: var(--space-xxxl); }
+
 /* Grundlæggende grid (mobile-first) */
 .grid {
     display: grid;
