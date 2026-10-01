@@ -13,22 +13,15 @@
     <header class="navbarfixed">
         <div class="container flex flex-row justify-between items-center p-l-lg p-r-lg p-t-md p-b-md">
             <div class="logo"><a href="#top" class="text-decoration-none text-xl">Struktur</a></div>
-            <nav class="hidden visible-md">
-                <a href="#container" class="p-r-sm">Container</a>
-                <a href="#grid" class="p-r-sm">Grid</a>
-                <a href="#farver" class="p-r-sm">Farver</a>
-                <a href="#tekst" class="p-r-sm">Tekst</a>
-                <a href="#fotos" class="p-r-sm">Fotos</a>
-                <a href="#forms" class="p-r-sm">Forms</a>
-            </nav>
-            <div class="navicon hidden-md">
+         
+            <div class="navicon ">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="size-6" height="32" width="32">
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
             </div>
-            <nav class="mobile-menu hidden flex-col justify-center items-center hidden-md">
+            <nav class="mobile-menu hidden flex-col justify-center items-center">
                 <a href="#top" class="p-r-sm">Top</a>
                 <a href="#container" class="p-r-sm">Container</a>
                 <a href="#grid" class="p-r-sm">Grid</a>
@@ -313,6 +306,9 @@
                     <h2 class="text-xl text-primary-dark">Tekst eksempler</h2>
                 </div>
                 <div class="col-12">
+                    <h3>Typografisk hierarki</h3>
+                </div>
+                <div class="col-12">
                     <h1>Det her er en h1</h1>
                 </div>
                 <div class="col-12">
@@ -330,6 +326,113 @@
                     <p class="text-bold"> Eller tykkere med text-bold.</p>
                     <p class="text-sm">Eller mindre med class'en text-sm.</p>
                     <p>Og her er et eksempel på et link: <a href="#">Her er et link</a></p>
+                </div>
+            </div>
+            <div class="grid mt-xxxl">
+                <div class="col-12">
+                    <h3>Lister</h3>
+                </div>
+                <div class="col-12">
+                    <p>Her er et eksempel på en liste med punkter:</p>
+                    <ul>
+                        <li>Listepunkt 1</li>
+                        <li>Listepunkt 2</li>
+                        <li>Listepunkt 3</li>
+                    </ul>
+                </div>
+                 <div class="col-12">
+                    <p>Her er et eksempel på en nummereret liste:</p>
+                    <ol>
+                        <li>Listepunkt 1</li>
+                        <li>Listepunkt 2</li>
+                        <li>Listepunkt 3</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="grid mt-xxxl">
+                <div class="col-12">
+                    <h3>Blockquote</h3>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p>Her er et eksempel på en blockquote:</p>
+                    <blockquote>
+                        <p>"Dette er et eksempel på en blockquote. Blockquotes bruges til at fremhæve citater eller
+                            vigtige udsagn."</p>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="grid mt-xxxl">
+                <div class="col-12">
+                    <h3>Kodeblok</h3>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p>Her er et eksempel på en kodeblok:</p>
+                    <pre><code>function helloWorld() {
+                        console.log("Hello, World!");
+                    }</code></pre>
+                </div>
+            </div>
+            <div class="grid mt-xxxl">
+                <div class="col-12">
+                    <h3>Inline kode</h3>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p>Her er et eksempel på en inline kode:</p>
+                    <p>For at udskrive "Hello, World!" i JavaScript, kan du bruge <code>console.log("Hello, World!");</code></p>
+                </div>
+            </div>
+            <div class="grid mt-xxxl">
+                <div class="col-12">
+                    <h3>Tabeller</h3>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p>Her er et eksempel på en tabel:</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Header 1</th>
+                                <th>Header 2</th>
+                                <th>Header 3</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Data 1</td>
+                                <td>Data 2</td>
+                                <td>Data 3</td>
+                            </tr>
+                            <tr>
+                                <td>Data 4</td>
+                                <td>Data 5</td>
+                                <td>Data 6</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="grid m-t-xxxl">
+                <div class="col-12">
+                    <h3>Text columns</h3>
+                </div>
+                <div class="col-12">
+                    <div class="text-col-2 md:text-col-4 text-col-gap-xl">
+                        <p>Her er et eksempel på tekst, der er opdelt i flere kolonner ved hjælp af class'en text-col-4. Dette
+                            kan være nyttigt til at præsentere information på en mere kompakt måde, især på bredere
+                            skærme.
+                        </p>
+                        <p>Her er et eksempel på tekst, der er opdelt i flere kolonner ved hjælp af class'en text-col-4. Dette
+                            kan være nyttigt til at præsentere information på en mere kompakt måde, især på bredere
+                            skærme.
+                        </p>
+                        <p>Her er et eksempel på tekst, der er opdelt i flere kolonner ved hjælp af class'en text-col-4. Dette
+                            kan være nyttigt til at præsentere information på en mere kompakt måde, især på bredere
+                            skærme.
+                        </p>
+                        <p>Her er et eksempel på tekst, der er opdelt i flere kolonner ved hjælp af class'en text-col-4. Dette
+                            kan være nyttigt til at præsentere information på en mere kompakt måde, især på bredere
+                            skærme.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
