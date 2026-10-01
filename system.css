@@ -1007,6 +1007,11 @@ img {
 .navbarfixed {
     width: 100%;
     background: var(--color-bright);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: var(--shadow-sm);
 }
 .mobile-menu{
   position: fixed;
