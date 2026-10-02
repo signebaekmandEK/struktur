@@ -14,7 +14,8 @@
     <header class="navbarfixed">
         <div class="container flex flex-row justify-between items-center p-l-lg p-r-lg p-t-md p-b-md">
             <div class="logo"><a href="#top" class="text-decoration-none text-xl">Struktur</a></div>
-             <nav class="hidden visible-md">
+            <nav class="hidden visible-md">
+                <a href="blank.html" class="p-r-sm">Bogen</a>
                 <a href="#container" class="p-r-sm">Container</a>
                 <a href="#grid" class="p-r-sm">Grid</a>
                 <a href="#farver" class="p-r-sm">Farver</a>
@@ -24,7 +25,7 @@
                 <a href="#cards" class="p-r-sm">Cards</a>
                 <a href="#animation" class="p-r-sm">Animation</a>
             </nav>
-         
+
             <div class="navicon hidden-md">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="size-6" height="32" width="32">
@@ -33,6 +34,7 @@
                 </svg>
             </div>
             <nav class="mobile-menu hidden flex-col justify-center items-center hidden-md">
+                <a href="blank.html" class="p-r-sm">Bogen</a>
                 <a href="#top" class="p-r-sm">Top</a>
                 <a href="#container" class="p-r-sm">Container</a>
                 <a href="#grid" class="p-r-sm">Grid</a>
@@ -353,7 +355,7 @@
                         <li>Listepunkt 3</li>
                     </ul>
                 </div>
-                 <div class="col-12">
+                <div class="col-12">
                     <p>Her er et eksempel på en nummereret liste:</p>
                     <ol>
                         <li>Listepunkt 1</li>
@@ -391,7 +393,9 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <p>Her er et eksempel på en inline kode:</p>
-                    <p>For at udskrive "Hello, World!" i JavaScript, kan du bruge <code>console.log("Hello, World!");</code></p>
+                    <p>For at udskrive "Hello, World!" i JavaScript, kan du bruge
+                        <code>console.log("Hello, World!");</code>
+                    </p>
                 </div>
             </div>
             <div class="grid mt-xxxl">
@@ -429,19 +433,23 @@
                 </div>
                 <div class="col-12">
                     <div class="text-col-2 md:text-col-4 text-col-gap-xl">
-                        <p>Her er et eksempel på tekst, der er opdelt i flere kolonner ved hjælp af class'en text-col-4. Dette
+                        <p>Her er et eksempel på tekst, der er opdelt i flere kolonner ved hjælp af class'en text-col-4.
+                            Dette
                             kan være nyttigt til at præsentere information på en mere kompakt måde, især på bredere
                             skærme.
                         </p>
-                        <p>Her er et eksempel på tekst, der er opdelt i flere kolonner ved hjælp af class'en text-col-4. Dette
+                        <p>Her er et eksempel på tekst, der er opdelt i flere kolonner ved hjælp af class'en text-col-4.
+                            Dette
                             kan være nyttigt til at præsentere information på en mere kompakt måde, især på bredere
                             skærme.
                         </p>
-                        <p>Her er et eksempel på tekst, der er opdelt i flere kolonner ved hjælp af class'en text-col-4. Dette
+                        <p>Her er et eksempel på tekst, der er opdelt i flere kolonner ved hjælp af class'en text-col-4.
+                            Dette
                             kan være nyttigt til at præsentere information på en mere kompakt måde, især på bredere
                             skærme.
                         </p>
-                        <p>Her er et eksempel på tekst, der er opdelt i flere kolonner ved hjælp af class'en text-col-4. Dette
+                        <p>Her er et eksempel på tekst, der er opdelt i flere kolonner ved hjælp af class'en text-col-4.
+                            Dette
                             kan være nyttigt til at præsentere information på en mere kompakt måde, især på bredere
                             skærme.
                         </p>
@@ -555,18 +563,21 @@
         </div>
         <div class="container">
             <div class="grid">
-                <div data-animation="slide-in-elliptic-top-bck" class="animdelay-4 col-12 col-md-4 card flex flex-col justify-between">
+                <div data-animation="slide-in-elliptic-top-bck"
+                    class="animdelay-4 col-12 col-md-4 card flex flex-col justify-between">
                     <p>Alt godt kommer til den der venter:Hvor længe vil du vente...</p>
                     <p>At vente er en byrde</p>
                     <p><a href="#" class="btn btn-secondary">Læs mere</a></p>
                 </div>
-                <div data-animation="slide-in-elliptic-top-bck" class="animdelay-7 col-12 col-md-4 card flex flex-col justify-between">
+                <div data-animation="slide-in-elliptic-top-bck"
+                    class="animdelay-7 col-12 col-md-4 card flex flex-col justify-between">
                     <p>Alt godt kommer til den der venter:Hvor længe vil du vente... Jeg er selv ret tålmodig, men
                         indimellem slipper tålmodigheden op. Så står jeg op. Ja, jeg sover ikke så godt.</p>
                     <p>At vente er en byrde</p>
                     <p><a href="#" class="btn btn-secondary">Læs mere</a></p>
                 </div>
-                <div data-animation="slide-in-elliptic-top-bck" class="animdelay-10 col-12 col-md-4 card flex flex-col justify-between">
+                <div data-animation="slide-in-elliptic-top-bck"
+                    class="animdelay-10 col-12 col-md-4 card flex flex-col justify-between">
                     <p>Alt godt kommer til den der venter:Hvor længe vil du vente...</p>
                     <p>At vente er en byrde</p>
                     <p><a href="#" class="btn btn-secondary">Læs mere</a></p>
@@ -581,12 +592,19 @@
                 <div class="col-12 col-lg-6">
                     <h2 class="text-xl text-primary-dark">Animationer</h2>
                     <p>Struktur er klargjort til Animista animationer - se eksempelvis card'ene ovenfor.</p>
-                    <p>I system.css tiføjes keyframe animationer fra <a href="https://animista.net/" target="_blank">Animista</a> i "animationer" sektionen. Ja, du kan også bruge andre CSS-animationer. Animista er blot min favorit.</p>
+                    <p>I system.css tiføjes keyframe animationer fra <a href="https://animista.net/"
+                            target="_blank">Animista</a> i "animationer" sektionen. Ja, du kan også bruge andre
+                        CSS-animationer. Animista er blot min favorit.</p>
                     <p>Dernæst tilføjer du class'en til det element, du gerne vil animere.</p>
-                    <p>Skal animationen først vises, når det kommer ind i viewporten?</p> 
-                    <p>Så tilføjer du animations-class'en via en data-attribut i stedet: <code>data-animation="animations-class"</code></p>
-                    <p>En lille stump javascript i js.js sørger for at tilføjer animationen, når elementet kommer ind i viewporten.</p>
-                    <p>Du kan give animationer en forsinkelse ved at tilføje en animdelay class: .animdelay-1 giver en forsinkelse på 0.1s, .animdelay-2 giver en forsinkelse på 0.2s, osv. indtil animdelay-10, som giver en forsinkelse på 1.0s.</p>
+                    <p>Skal animationen først vises, når det kommer ind i viewporten?</p>
+                    <p>Så tilføjer du animations-class'en via en data-attribut i stedet:
+                        <code>data-animation="animations-class"</code>
+                    </p>
+                    <p>En lille stump javascript i js.js sørger for at tilføjer animationen, når elementet kommer ind i
+                        viewporten.</p>
+                    <p>Du kan give animationer en forsinkelse ved at tilføje en animdelay class: .animdelay-1 giver en
+                        forsinkelse på 0.1s, .animdelay-2 giver en forsinkelse på 0.2s, osv. indtil animdelay-10, som
+                        giver en forsinkelse på 1.0s.</p>
                 </div>
             </div>
         </div>
